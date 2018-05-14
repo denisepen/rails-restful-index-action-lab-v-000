@@ -469,3 +469,10 @@ ActionView::Template::Error (undefined method `name' for #<Student:0x007f17280a1
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.5ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.1ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (148.6ms)
+
+
+Started GET "/students" for 24.186.246.85 at 2018-05-14 17:45:02 +0000
+Processing by StudentController#index as HTML
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students"
+  Rendered student/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 84ms (Views: 82.2ms | ActiveRecord: 0.6ms)
