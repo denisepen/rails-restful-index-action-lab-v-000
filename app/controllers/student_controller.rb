@@ -1,5 +1,5 @@
 class StudentController < ApplicationController
 
-  def student
+  def index
 end
 end
